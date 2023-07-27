@@ -43,7 +43,7 @@ document.addEventListener("DOMContentLoaded", function() {
 		// 执行动画函数
 	function animateImage() {
 		anime({
-			targets: [image1,image2],
+			targets: [image1],
 		translateX: function() {
 			return anime.random(-250, 250); // 随机生成 translateX 值
 		    },
